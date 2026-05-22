@@ -1,9 +1,10 @@
 # Ignore the raw data and processed images
 data/
-*.zip
+*.gpkg
+*.shp
+*.json
 *.png
 *.jpg
-*.gpkg
 
 # Ignore python's temporary files
 __pycache__/
