@@ -96,4 +96,4 @@ ax.add_artist(scale_bar)
 
 #save figure
 
-plt.savefig(r'C:\Users\petrica.s\geospatial_project\geo_work\data\processed\final_map.png', dpi=300, bbox_inches='tight')
+plt.savefig(r'C:\Users\petrica.s\geospatial_project\geo_work\Maps\location_map.png', dpi=300, bbox_inches='tight')

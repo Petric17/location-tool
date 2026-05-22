@@ -5,8 +5,7 @@ data/
 *.gpkg
 *.shp
 *.json
-*.png
-*.jpg
+
 
 # Ignore python's temporary files
 __pycache__/
