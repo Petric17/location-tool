@@ -26,7 +26,7 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir cython
 RUN pip install --no-cache-dir -r requirements.txt
-COPY data/ ./data/
+RUN mkdir -p /app/data
 COPY Maps/ ./Maps/ 
 COPY scripts/ ./scripts/
 CMD ["python", "scripts/location_map.py"]
