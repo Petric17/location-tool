@@ -1,12 +1,10 @@
-# Ignore the raw data and processed images
-venv/
-.venv/
+# Ignore the data folders
 data/
-*.gpkg
-*.shp
-*.json
+raw/
+*.zip
+*.SAFE
 
-
-# Ignore python's temporary files
+# Ignore environment/secret files
+.env
 __pycache__/
 .ipynb_checkpoints/
