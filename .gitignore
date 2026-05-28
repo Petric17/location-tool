@@ -9,6 +9,16 @@ geo_work/data/
 *.shp
 *.tif
 
+
 # Docker / OS
 .DS_Store
 .env
+
+#Ignore files:
+
+scripts/
+Maps/
+venv/
+README.txt
+.env
+__pycache__/
