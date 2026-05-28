@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+
+# Ignore Airflow's history and logs
+logs/
+plugins/
+postgres_data/s
