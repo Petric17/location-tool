@@ -15,8 +15,6 @@ geo_work/data/
 .env
 
 #Ignore files:
-
-scripts/
 Maps/
 venv/
 README.txt
